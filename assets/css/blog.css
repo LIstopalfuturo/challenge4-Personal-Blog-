@@ -1,13 +1,17 @@
 main article{
   margin: 2%;
   padding: 2%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 24vh;
+  border: 1px solid black;
 }
 
-
-main article{
-  height: 30vh;
-  border: 1px solid black;
-   margin:2%;
+@media screen and (max-width: 768px) {
+  main article {
+    width: 90%;
+  }
 }
 
 .sentence{
@@ -33,8 +37,28 @@ footer p{
   text-align: center;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 2px solid black;
+  margin-bottom: 0.5%;
+}
+
+#theme {
+  height: 25px;
+  width: 25px;
+  margin: 5px;
+  cursor: pointer;
+  object-fit: contain;
+}
+
 header button {
   margin-right: auto;
-  padding: 5px 15px;
+  padding: 3px 10px;
   cursor: pointer;
+  height: 25px;
 }
